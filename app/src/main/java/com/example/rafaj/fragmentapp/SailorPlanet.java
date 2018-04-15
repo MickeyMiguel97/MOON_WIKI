@@ -26,7 +26,7 @@ public class SailorPlanet implements Serializable {
             img = R.drawable.venus;
         }
         else if(pos_imagen==3){
-            img = R.drawable.earth;
+            img = R.drawable.chibi_moon;
         }
         else if(pos_imagen==4){
             img = R.drawable.mars;

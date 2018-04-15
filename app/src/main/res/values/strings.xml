@@ -2,14 +2,14 @@
     <string name="app_name">FragmentApp</string>
 
     <string-array name="Planets">
-        <item>Sailor Moon</item>
-        <item>Sailor Mercury</item>
-        <item>Sailor Venus</item>
-        <item>Prince of the Earth</item>
-        <item>Sailor Mars</item>
-        <item>Sailor Jupiter</item>
-        <item>Sailor Saturn</item>
-        <item>Sailor Uranus</item>
-        <item>Sailor Neptune</item>
+        <item>Sailor Moon\nPrincesa del Reino Lunar</item>
+        <item>Sailor Mercury\nSailor Scout de la Inteligencia</item>
+        <item>Sailor Venus\nSailor Scout del Amor</item>
+        <item>Chibi Moon\nHija de Sailor Moon</item>
+        <item>Sailor Mars\nSailor Scout de la Guerra</item>
+        <item>Sailor Jupiter\nSailor Scout de la Naturaleza</item>
+        <item>Sailor Saturn\nSailor Scout de la Destrucción</item>
+        <item>Sailor Uranus\nSailor Scout del Viento</item>
+        <item>Sailor Neptune\nSailor Scout del Mar</item>
     </string-array>
 </resources>
