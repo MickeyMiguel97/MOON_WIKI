@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FragmentApp</string>
+    <string name="app_name">Sailor Scout</string>
 
     <string-array name="Planets">
         <item>Sailor Moon\nPrincesa del Reino Lunar</item>
