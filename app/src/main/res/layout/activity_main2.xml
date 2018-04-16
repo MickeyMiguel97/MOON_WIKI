@@ -11,7 +11,7 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="1dp"
         android:layout_weight="2"
         android:id="@+id/textId"
         android:textSize="20sp"
@@ -21,9 +21,10 @@
         android:layout_marginTop="30dp"/>
 
     <ImageView
+        style="@style/BackGroundImageView"
         android:id="@+id/imgId"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="2dp"
         android:layout_weight="9"
         android:padding="8dp"
         android:layout_marginTop="-5dp"/>
