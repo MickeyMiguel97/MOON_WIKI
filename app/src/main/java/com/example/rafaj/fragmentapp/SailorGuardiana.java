@@ -6,22 +6,22 @@ import java.io.Serializable;
  * Created by Yanira Yanes on 15/04/2018.
  */
 
-public class SailorPlanet implements Serializable {
+public class SailorGuardiana implements Serializable {
 
     private int img;
     private String name;
 
     //constructor
-    public SailorPlanet(String name, int pos_imagen){
+    public SailorGuardiana(String name, int posicion_imagen){
         this.name = name;
 
         //tomando los recursos de drawable
-        switch(pos_imagen){
+        switch(posicion_imagen){
             case 0:
                 img = R.drawable.sun;
                 break;
             case 1:
-                img = R.drawable.chibi_moon;
+                img = R.drawable.mercury;
                 break;
             case 2:
                 img = R.drawable.jupiter;

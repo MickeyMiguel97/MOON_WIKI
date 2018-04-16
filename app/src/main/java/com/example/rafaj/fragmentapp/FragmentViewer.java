@@ -28,7 +28,7 @@ public class FragmentViewer extends Fragment {
 
         if(bundle != null){
             //creando objeto
-            SailorPlanet sailor = (SailorPlanet)bundle.getSerializable("SAILOR");
+            SailorGuardiana sailor = (SailorGuardiana)bundle.getSerializable("SAILOR");
             Toast.makeText(getActivity(), "Item: " + sailor.getname(), Toast.LENGTH_SHORT).show();
             //setenando string e imagen
             text.setText(sailor.getname());

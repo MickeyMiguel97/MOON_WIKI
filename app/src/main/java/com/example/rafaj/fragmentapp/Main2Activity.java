@@ -33,7 +33,7 @@ public class Main2Activity extends AppCompatActivity {
     private void handleReceivedText(Intent intent){
 
         //creando objeto
-        SailorPlanet sailor = (SailorPlanet)intent.getSerializableExtra("SAILOR");
+        SailorGuardiana sailor = (SailorGuardiana)intent.getSerializableExtra("SAILOR");
 
         //condicion para que aparezca el string e imagen
         if (text != null) {

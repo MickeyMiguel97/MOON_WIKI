@@ -39,7 +39,7 @@ public class FragmentList extends ListFragment implements AdapterView.OnItemClic
         //Toast.makeText(getActivity(), "Item: " + adapterView.getItemAtPosition(i).toString(), Toast.LENGTH_SHORT).show();
 
         //creando el objeto
-        SailorPlanet sailor = new SailorPlanet(adapterView.getItemAtPosition(i).toString(),i);
+        SailorGuardiana sailor = new SailorGuardiana(adapterView.getItemAtPosition(i).toString(),i);
 
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT){
             Intent newIntent = new Intent(getActivity().getApplicationContext(), Main2Activity.class);
